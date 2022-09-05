@@ -14,8 +14,8 @@ public class TestBean {
 		String byType = context.getBean(String.class);
 		String byBoth = context.getBean("timeNow", String.class);
 		
-		System.out.println(byName);
-		System.out.println(byType);
-		System.out.println(byBoth);
+		System.out.println("byName " + byName);
+		System.out.println("byType " + byType);
+		System.out.println("byBoth " + byBoth);
 	}
 }
